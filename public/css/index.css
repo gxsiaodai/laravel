@@ -1,0 +1,200 @@
+/*CSS中*{}代表的是所有HTML的doc元素标签,代表的就是body div p span标签元素*/
+*{
+	padding:0px; 
+	margin:0px;
+	font-family:微软雅黑;
+}
+
+/*去除li前面的小点点,隐藏掉li列表前面默认的黑点*/
+ul{ list-style:none; 
+    
+   
+    
+}
+
+/*使用text-decoration属性来定义段落文本的下划线、删除线和顶划线，none为默认值，可以用这个属性值去掉已经有下划线或删除线或顶划线的样式*/
+a{ text-decoration:none; }
+
+li{
+	list-style: none;
+    margin:0;
+    padding:0
+    
+}
+
+header{
+
+	 height:38px;  /*高*/
+	 padding:0px 100px;  /*内部边距上下为0  左右为100*/
+	 width:auto;    /*宽自动控制左右边距*/
+	 background:#333;
+	
+	 }
+
+.left{ float:left;}
+.right{ float:right; }
+
+
+/*ul下的竖排变横向排列*/	
+ header ul li{
+	float:left;
+	line-height:38px; /*垂直居中*/
+	padding:0px 10px;
+	font-size:13px;
+	position:relative; /*相对定位*/
+
+}
+
+/*a标签链接的颜色*/	 
+header ul li a{ color:#fff;}
+
+
+header ul li em{
+	display:block;/*就是将元素显示为块级元素*/
+	height:14px;
+	width:1px;
+	background:#fff;
+	position:absolute; /*绝对定位*/
+	right:0px;
+	top:14px;     /*规定元素的顶部边缘*/
+}
+
+header ul li i{
+	display:block;
+	height:19px;
+	width:19px;
+	background:red;
+	font-style:normal;  /*去除字体斜体*/
+	text-align:center;  /*标签里的文本水平居中*/
+	line-height:19px;   /*垂直居中*/
+	color:#fff;
+	border-radius:10px 10px 10px 0px; /*添加圆角的边框,最多可指定四个 border-radius 属性的复合属性*/
+    position:absolute;
+    right:-13px;
+    top:0px;   /*规定元素的顶部边缘*/
+}
+
+
+
+div ul li{
+	float: left;
+	padding:0px 15px;
+	color:black;
+}
+
+
+#abs img{
+   width:1263px;
+   height:300px;
+}
+
+
+#header{
+	height:38px;
+	width:1000px;	
+	margin:0px auto;
+	padding-top:38x;
+	overflow:hidden; /*清除浮动带来的影响*/
+}
+
+#header #logo{
+    float:left;
+
+}
+
+#header #logo img{
+	height:40px;
+	}
+	
+#header #search{
+	float:right;
+
+}
+
+#search #ss{width:300px;}
+
+
+
+nav{ 
+	width: 1000px;
+	margin:0 auto;
+    height:50px;
+}
+
+nav ul li{
+	float:left;
+	padding-right:45px;
+	line-height:50px;
+}
+
+
+nav ul li img{
+	width:133px;	
+}
+
+nav ul li a{color:#000;}
+
+
+.footer{
+
+	 
+    background-color:#272727;
+     width:100%;
+     color:#ccc;
+
+
+    /* height:300px;
+
+    padding: 30px 0;
+
+    background:#333;
+
+    border-top:3px solid #EFEFEF;
+
+margin:0;*/
+}
+
+.footer ul{
+	 width:1200px;
+	 margin:auto;
+	 padding:42px 0 20px 0;
+	 position:relative;
+	
+ box-sizing:content-box;/*以特定的方式定义匹配某个区域的特定元素,可在浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中
+ 
+     /*float:left;
+     width:200px;
+     margin:0 0 0 20px;
+     padding:0;
+     color:#fff;*/
+}
+
+
+
+.footer-left{
+	width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    float:left;
+}
+
+}
+.footer ul li{
+     
+     padding:10px 0;
+     list-style:none;
+     color:#fff;
+    }
+
+#main{
+	width:1200px;
+	height:365px;
+	margin:0 auto;
+}
+.main-left{
+	float:left;
+}
+.center{
+	float:left;
+}
